@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startWorkout() {
-        let countdown = 3;
+        let countdown = 5;
         inputsElement.style.display = "none";
 
         function doCountdown() {

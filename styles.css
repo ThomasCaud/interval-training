@@ -52,5 +52,6 @@ input[type="text"]:focus {
 }
 
 #countdownContainer {
-    margin-top: 40vh;
+    margin-top: 30vh;
+    font-size: 4em;
 }
