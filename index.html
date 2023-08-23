@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Entraînement Fractionné</title>
+</head>
+
+<body>
+    <div id="inputs">
+        <h1>Pro Timer</h1>
+        <div>
+            <div for="repetitions">Répétitions </div>
+            <input type="number" id="repetitions" value="3">
+        </div>
+        <br>
+        <div>
+            <div for="workDuration">Travail </div>
+            <div class="legend">Durée des séquences de travail, en secondes.</div>
+            <input type="number" id="workDuration" value="5">
+        </div>
+        <br>
+        <div>
+            <div for="restDuration">Repos </div>
+            <div class="legend">Durée des séquences de repos, en secondes.</div>
+            <input type="number" id="restDuration" value="2">
+        </div>
+        <br>
+        <button id="startButton">Commencer</button>
+    </div>
+    <div id="countdownContainer">
+        <label id="workLabel">Travail</label>
+        <label id="restLabel">Repos</label>
+        <div id="countdown"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
