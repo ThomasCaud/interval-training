@@ -63,13 +63,13 @@ document.addEventListener("DOMContentLoaded", function () {
         countdownElement.textContent = workDuration;
         document.body.classList.remove("rest");
         document.body.classList.add("work");
-        workLabel.style.display = "block"; // Afficher le label "Travail"
+        workLabel.style.display = "block";
 
         function doWork() {
             if (workDuration === 0) {
                 workDuration = parseInt(document.getElementById("workDuration").value) + 1;
                 countdownElement.style.display = "none";
-                workLabel.style.display = "none"; // Masquer le label "Travail"
+                workLabel.style.display = "none";
                 document.body.classList.remove("work");
                 doRest();
             } else {
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         countdownElement.textContent = restDuration;
         document.body.classList.remove("work");
         document.body.classList.add("rest");
-        restLabel.style.display = "block"; // Afficher le label "Repos"
+        restLabel.style.display = "block";
 
         function doRestCountdown() {
             if (restDuration === 0) {
