@@ -51,12 +51,18 @@ input[type="text"]:focus {
     font-style: italic;
 }
 
-#countdownContainer {
-    margin-top: 30vh;
-    font-size: 4em;
+#repetitionsRemaining {
+    font-size: 2em;
+    font-style: italic;
+    margin-top: 5vh;
 }
 
-#repetitionsRemaining {
-    font-size: 0.4em;
-    font-style: italic;
+#countdown {
+    font-size: 4em;
+    margin-top: 25vh;
+}
+
+#workLabel, #restLabel {
+    font-size: 2em;
+    margin-top: 25vh;
 }

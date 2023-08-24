@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const repetitionsRemainingElement = document.getElementById("repetitionsRemaining");
-        repetitionsRemainingElement.textContent = `Répétitions restantes : ${repetitions - currentRep}`;
+        repetitionsRemainingElement.textContent = `Cycles restants : ${repetitions - currentRep}`;
 
         console.log("Rep " + currentRep + " of " + repetitions);
         countdownElement.style.display = "block";
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 restLabel.style.display = "none";
                 document.body.classList.remove("rest");
                 const repetitionsRemainingElement = document.getElementById("repetitionsRemaining");
-                repetitionsRemainingElement.textContent = `Répétitions restantes : ${repetitions - currentRep}`;
+                repetitionsRemainingElement.textContent = `Cycles restants : ${repetitions - currentRep}`;
                 setTimeout(performRepetitions, 0);
             } else {
                 restDuration--;
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beepSound.play();
                 }
                 const repetitionsRemainingElement = document.getElementById("repetitionsRemaining");
-                repetitionsRemainingElement.textContent = `Répétitions restantes : ${repetitions - currentRep}`;
+                repetitionsRemainingElement.textContent = `Cycles restants : ${repetitions - currentRep}`;
                 setTimeout(doRestCountdown, 1000);
             }
         }
