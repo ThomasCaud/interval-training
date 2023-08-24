@@ -52,17 +52,20 @@ input[type="text"]:focus {
 }
 
 #repetitionsRemaining {
-    font-size: 2em;
-    font-style: italic;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 #countdown {
-    font-size: 4em;
-    margin-top: 25vh;
+    font-size: 5em;
+    margin-top: 20vh;
+    font-weight: bold;
 }
 
 #workLabel, #restLabel {
+    margin-top: 20vh;
+}
+
+#repetitionsRemaining, #workLabel, #restLabel {
     font-size: 2em;
-    margin-top: 25vh;
+    font-style: italic;
 }
