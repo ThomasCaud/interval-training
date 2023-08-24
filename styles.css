@@ -57,12 +57,12 @@ input[type="text"]:focus {
 
 #countdown {
     font-size: 5em;
-    margin-top: 20vh;
+    margin-top: 15vh;
     font-weight: bold;
 }
 
 #workLabel, #restLabel {
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 #repetitionsRemaining, #workLabel, #restLabel {
